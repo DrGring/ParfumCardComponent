@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Montserrat:wght@500;600;700&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+p{
+    margin-bottom: 20px;
+    height: 88px;
+    color: rgb(117, 117, 112);
+    height: 70px;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Fraunces';
+}
+
+.Article{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 615px;
+    background-color: hsl(0, 16%, 78%);
+    align-items: center;
+}
+
+.body_article section1 {
+    font-family:'Montserrat', sans-serif;
+    color: rgb(107, 107, 99);
+    letter-spacing: 5px;
+}
+
+.body_text{
+    margin-left: 20px;
+    width: 292px;
+    height: 279px;
+}
+.IconSVG{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 7%!important;
+    height: 20px;
+    margin-bottom: 19px;   
+}
+.number{
+    font-family: 'Montserrat';
+    display: flex;
+    color: #555555;
+    font-size: 13px;
+    align-items: center;
+    width: 199px;
+    height: 33px;
+   margin-bottom: 20px;
+}
+.number section{
+    
+    font-family: 'Fraunces';
+    color: #397559;
+    font-weight: bold;
+    width: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.body_button {
+    background:#3f7e60; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 294px;
+    height: 49px;
+    cursor: pointer;
+}
+.body a:hover{
+    background-color: rgb(44, 68, 40);
+}
+@media only screen and (min-width:100px) {
+    .body_image {
+        background-image: url(images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-size: 100%;
+        position: static;
+        height: 230px;
+        border-top-right-radius:10px;
+        border-top-left-radius: 10px;
+        margin-bottom: 12px;
+    }
+    .body{
+        margin-top: 15px;
+        width: 344px;
+        height: 567px;
+        border-radius:10px;
+        background-color: #fff;
+    }
+    
+}
+@media  only screen and (min-width:1439px) {
+    body{
+        font-size: 14px;
+    }
+    p{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .body{
+        display: flex;
+        margin-top: 0;
+        width: 599px;
+        height: 449px;
+        border-radius:10px;
+        background-color: #fff;
+        
+    }
+    .body_image{
+        background-image: url(images/image-product-desktop.jpg);
+        background-repeat: no-repeat;
+        width: 302px!important;
+        height: 449px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 0!important;
+    }
+    
+    .body_text{
+        margin-top: 32px;
+        margin-left: 30px;
+        width: 237px;
+        height: 387px;
+    }
+    .body_button{
+        width: 236px;
+    }
+    .body_article {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
