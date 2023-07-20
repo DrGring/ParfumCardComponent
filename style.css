@@ -23,11 +23,11 @@ h1{
     font-family: 'Fraunces';
 }
 
-.Article{
+.article{
     display: flex;
     justify-content: center;
-    width: auto;
-    height: 615px;
+    width: 100%;
+    height: 1000px;
     background-color: hsl(0, 16%, 78%);
     align-items: center;
 }
@@ -43,7 +43,7 @@ h1{
     width: 292px;
     height: 279px;
 }
-.IconSVG{
+.iconsvg{
     margin-top: 20px;
     margin-right: 10px;
     width: 7%!important;
